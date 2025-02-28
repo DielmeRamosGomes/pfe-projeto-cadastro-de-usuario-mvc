@@ -5,7 +5,7 @@ let newProduto1 = controller.criarProduto(1, "Notebook Acer", 3500, "notebook ga
 let newProduto2 = controller.criarProduto(2, "Geladeira Consul", 4000, "Geladeira boa para gelar agua");
 let newProduto3 = controller.criarProduto(3, "Televisão Samsung", 5000, "Tv boa para jogar video game");
 let newProduto4 = controller.criarProduto(4, "Sofá", 6000, "sofá bom para relaxar feito a mão");
-let produtos = [newProduto1, newProduto2, newProduto3];
+let produtos = [newProduto1, newProduto2, newProduto3, newProduto4];
 
 document.addEventListener('DOMContentLoaded', function() {
     let tabelaProduto = document.getElementById('tabelaProduto').getElementsByTagName('tbody')[0];
